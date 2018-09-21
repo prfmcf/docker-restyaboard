@@ -4,7 +4,7 @@ ARG TERM=linux
 ARG DEBIAN_FRONTEND=noninteractive
 
 # restyaboard version
-ENV restyaboard_version=v0.2.1
+ENV restyaboard_version=v0.6.5
 
 # update & install package
 RUN apt-get update --yes
